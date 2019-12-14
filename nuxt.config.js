@@ -1,4 +1,8 @@
 module.exports = {
+  server: {
+    port: 3001, // default: 3000
+    host: 'localhost' // default: localhost
+  },
   mode: 'spa',
   /*
    ** Headers of the page
